@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C57D9B2191B5BEB00815BCF /* libVVOSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C57D9B1191B5BEB00815BCF /* libVVOSC.a */; };
+		5CC2B7F6191A20F6009978F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B7F5191A20F6009978F1 /* Foundation.framework */; };
+		5CC2B7F8191A20F6009978F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B7F7191A20F6009978F1 /* CoreGraphics.framework */; };
+		5CC2B7FA191A20F6009978F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B7F9191A20F6009978F1 /* UIKit.framework */; };
+		5CC2B800191A20F6009978F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2B7FE191A20F6009978F1 /* InfoPlist.strings */; };
+		5CC2B802191A20F6009978F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B801191A20F6009978F1 /* main.m */; };
+		5CC2B806191A20F6009978F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B805191A20F6009978F1 /* AppDelegate.m */; };
+		5CC2B809191A20F6009978F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2B807191A20F6009978F1 /* Main.storyboard */; };
+		5CC2B80C191A20F6009978F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B80B191A20F6009978F1 /* ViewController.m */; };
+		5CC2B80E191A20F6009978F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2B80D191A20F6009978F1 /* Images.xcassets */; };
+		5CC2B815191A20F6009978F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B814191A20F6009978F1 /* XCTest.framework */; };
+		5CC2B816191A20F6009978F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B7F5191A20F6009978F1 /* Foundation.framework */; };
+		5CC2B817191A20F6009978F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B7F9191A20F6009978F1 /* UIKit.framework */; };
+		5CC2B81F191A20F6009978F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2B81D191A20F6009978F1 /* InfoPlist.strings */; };
+		5CC2B821191A20F6009978F1 /* OSCTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B820191A20F6009978F1 /* OSCTutorialTests.m */; };
+		5CC2B83A191A23C5009978F1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2B839191A23C5009978F1 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC2B818191A20F6009978F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC2B7EA191A20F6009978F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC2B7F1191A20F6009978F1;
+			remoteInfo = OSCTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C57D9B1191B5BEB00815BCF /* libVVOSC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVVOSC.a; sourceTree = "<group>"; };
+		5CC2B7F2191A20F6009978F1 /* OSCTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSCTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC2B7F5191A20F6009978F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CC2B7F7191A20F6009978F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CC2B7F9191A20F6009978F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CC2B7FD191A20F6009978F1 /* OSCTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSCTutorial-Info.plist"; sourceTree = "<group>"; };
+		5CC2B7FF191A20F6009978F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC2B801191A20F6009978F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC2B803191A20F6009978F1 /* OSCTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSCTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		5CC2B804191A20F6009978F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CC2B805191A20F6009978F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CC2B808191A20F6009978F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC2B80A191A20F6009978F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CC2B80B191A20F6009978F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CC2B80D191A20F6009978F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC2B813191A20F6009978F1 /* OSCTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC2B814191A20F6009978F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CC2B81C191A20F6009978F1 /* OSCTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSCTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		5CC2B81E191A20F6009978F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC2B820191A20F6009978F1 /* OSCTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCTutorialTests.m; sourceTree = "<group>"; };
+		5CC2B839191A23C5009978F1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5CC2B911191B4E19009978F1 /* MutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutLockArray.h; sourceTree = "<group>"; };
+		5CC2B912191B4E19009978F1 /* MutLockDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutLockDict.h; sourceTree = "<group>"; };
+		5CC2B913191B4E19009978F1 /* MutNRLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutNRLockArray.h; sourceTree = "<group>"; };
+		5CC2B914191B4E19009978F1 /* MutNRLockDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutNRLockDict.h; sourceTree = "<group>"; };
+		5CC2B915191B4E19009978F1 /* NamedMutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedMutLockArray.h; sourceTree = "<group>"; };
+		5CC2B916191B4E19009978F1 /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectHolder.h; sourceTree = "<group>"; };
+		5CC2B917191B4E19009978F1 /* OSCAddressSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAddressSpace.h; sourceTree = "<group>"; };
+		5CC2B918191B4E19009978F1 /* OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBundle.h; sourceTree = "<group>"; };
+		5CC2B919191B4E19009978F1 /* OSCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCConstants.h; sourceTree = "<group>"; };
+		5CC2B91A191B4E19009978F1 /* OSCInPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCInPort.h; sourceTree = "<group>"; };
+		5CC2B91B191B4E19009978F1 /* OSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCManager.h; sourceTree = "<group>"; };
+		5CC2B91C191B4E19009978F1 /* OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCMessage.h; sourceTree = "<group>"; };
+		5CC2B91D191B4E19009978F1 /* OSCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCNode.h; sourceTree = "<group>"; };
+		5CC2B91E191B4E19009978F1 /* OSCOutPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCOutPort.h; sourceTree = "<group>"; };
+		5CC2B91F191B4E19009978F1 /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPacket.h; sourceTree = "<group>"; };
+		5CC2B920191B4E19009978F1 /* OSCStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCStringAdditions.h; sourceTree = "<group>"; };
+		5CC2B921191B4E19009978F1 /* OSCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCValue.h; sourceTree = "<group>"; };
+		5CC2B922191B4E19009978F1 /* OSCZeroConfDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfDomain.h; sourceTree = "<group>"; };
+		5CC2B923191B4E19009978F1 /* OSCZeroConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfManager.h; sourceTree = "<group>"; };
+		5CC2B924191B4E19009978F1 /* VVAssertionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVAssertionHandler.h; sourceTree = "<group>"; };
+		5CC2B925191B4E19009978F1 /* VVBasicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBasicMacros.h; sourceTree = "<group>"; };
+		5CC2B926191B4E19009978F1 /* VVBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBasics.h; sourceTree = "<group>"; };
+		5CC2B927191B4E19009978F1 /* VVOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVOSC.h; sourceTree = "<group>"; };
+		5CC2B928191B4E19009978F1 /* VVStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVStopwatch.h; sourceTree = "<group>"; };
+		5CC2B929191B4E19009978F1 /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVThreadLoop.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC2B7EF191A20F6009978F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B83A191A23C5009978F1 /* CoreMotion.framework in Frameworks */,
+				5C57D9B2191B5BEB00815BCF /* libVVOSC.a in Frameworks */,
+				5CC2B7F8191A20F6009978F1 /* CoreGraphics.framework in Frameworks */,
+				5CC2B7FA191A20F6009978F1 /* UIKit.framework in Frameworks */,
+				5CC2B7F6191A20F6009978F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2B810191A20F6009978F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B815191A20F6009978F1 /* XCTest.framework in Frameworks */,
+				5CC2B817191A20F6009978F1 /* UIKit.framework in Frameworks */,
+				5CC2B816191A20F6009978F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC2B7E9191A20F6009978F1 = {
+			isa = PBXGroup;
+			children = (
+				5CC2B7FB191A20F6009978F1 /* OSCTutorial */,
+				5CC2B81A191A20F6009978F1 /* OSCTutorialTests */,
+				5CC2B7F4191A20F6009978F1 /* Frameworks */,
+				5CC2B7F3191A20F6009978F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC2B7F3191A20F6009978F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B7F2191A20F6009978F1 /* OSCTutorial.app */,
+				5CC2B813191A20F6009978F1 /* OSCTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC2B7F4191A20F6009978F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B839191A23C5009978F1 /* CoreMotion.framework */,
+				5CC2B7F5191A20F6009978F1 /* Foundation.framework */,
+				5CC2B7F7191A20F6009978F1 /* CoreGraphics.framework */,
+				5CC2B7F9191A20F6009978F1 /* UIKit.framework */,
+				5CC2B814191A20F6009978F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CC2B7FB191A20F6009978F1 /* OSCTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B90F191B4E19009978F1 /* VVOSC */,
+				5CC2B804191A20F6009978F1 /* AppDelegate.h */,
+				5CC2B805191A20F6009978F1 /* AppDelegate.m */,
+				5CC2B807191A20F6009978F1 /* Main.storyboard */,
+				5CC2B80A191A20F6009978F1 /* ViewController.h */,
+				5CC2B80B191A20F6009978F1 /* ViewController.m */,
+				5CC2B80D191A20F6009978F1 /* Images.xcassets */,
+				5CC2B7FC191A20F6009978F1 /* Supporting Files */,
+			);
+			path = OSCTutorial;
+			sourceTree = "<group>";
+		};
+		5CC2B7FC191A20F6009978F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B7FD191A20F6009978F1 /* OSCTutorial-Info.plist */,
+				5CC2B7FE191A20F6009978F1 /* InfoPlist.strings */,
+				5CC2B801191A20F6009978F1 /* main.m */,
+				5CC2B803191A20F6009978F1 /* OSCTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC2B81A191A20F6009978F1 /* OSCTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B820191A20F6009978F1 /* OSCTutorialTests.m */,
+				5CC2B81B191A20F6009978F1 /* Supporting Files */,
+			);
+			path = OSCTutorialTests;
+			sourceTree = "<group>";
+		};
+		5CC2B81B191A20F6009978F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B81C191A20F6009978F1 /* OSCTutorialTests-Info.plist */,
+				5CC2B81D191A20F6009978F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC2B90F191B4E19009978F1 /* VVOSC */ = {
+			isa = PBXGroup;
+			children = (
+				5C57D9B1191B5BEB00815BCF /* libVVOSC.a */,
+				5CC2B910191B4E19009978F1 /* include */,
+			);
+			path = VVOSC;
+			sourceTree = "<group>";
+		};
+		5CC2B910191B4E19009978F1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2B911191B4E19009978F1 /* MutLockArray.h */,
+				5CC2B912191B4E19009978F1 /* MutLockDict.h */,
+				5CC2B913191B4E19009978F1 /* MutNRLockArray.h */,
+				5CC2B914191B4E19009978F1 /* MutNRLockDict.h */,
+				5CC2B915191B4E19009978F1 /* NamedMutLockArray.h */,
+				5CC2B916191B4E19009978F1 /* ObjectHolder.h */,
+				5CC2B917191B4E19009978F1 /* OSCAddressSpace.h */,
+				5CC2B918191B4E19009978F1 /* OSCBundle.h */,
+				5CC2B919191B4E19009978F1 /* OSCConstants.h */,
+				5CC2B91A191B4E19009978F1 /* OSCInPort.h */,
+				5CC2B91B191B4E19009978F1 /* OSCManager.h */,
+				5CC2B91C191B4E19009978F1 /* OSCMessage.h */,
+				5CC2B91D191B4E19009978F1 /* OSCNode.h */,
+				5CC2B91E191B4E19009978F1 /* OSCOutPort.h */,
+				5CC2B91F191B4E19009978F1 /* OSCPacket.h */,
+				5CC2B920191B4E19009978F1 /* OSCStringAdditions.h */,
+				5CC2B921191B4E19009978F1 /* OSCValue.h */,
+				5CC2B922191B4E19009978F1 /* OSCZeroConfDomain.h */,
+				5CC2B923191B4E19009978F1 /* OSCZeroConfManager.h */,
+				5CC2B924191B4E19009978F1 /* VVAssertionHandler.h */,
+				5CC2B925191B4E19009978F1 /* VVBasicMacros.h */,
+				5CC2B926191B4E19009978F1 /* VVBasics.h */,
+				5CC2B927191B4E19009978F1 /* VVOSC.h */,
+				5CC2B928191B4E19009978F1 /* VVStopwatch.h */,
+				5CC2B929191B4E19009978F1 /* VVThreadLoop.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC2B7F1191A20F6009978F1 /* OSCTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC2B824191A20F6009978F1 /* Build configuration list for PBXNativeTarget "OSCTutorial" */;
+			buildPhases = (
+				5CC2B7EE191A20F6009978F1 /* Sources */,
+				5CC2B7EF191A20F6009978F1 /* Frameworks */,
+				5CC2B7F0191A20F6009978F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCTutorial;
+			productName = OSCTutorial;
+			productReference = 5CC2B7F2191A20F6009978F1 /* OSCTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC2B812191A20F6009978F1 /* OSCTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC2B827191A20F6009978F1 /* Build configuration list for PBXNativeTarget "OSCTutorialTests" */;
+			buildPhases = (
+				5CC2B80F191A20F6009978F1 /* Sources */,
+				5CC2B810191A20F6009978F1 /* Frameworks */,
+				5CC2B811191A20F6009978F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC2B819191A20F6009978F1 /* PBXTargetDependency */,
+			);
+			name = OSCTutorialTests;
+			productName = OSCTutorialTests;
+			productReference = 5CC2B813191A20F6009978F1 /* OSCTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC2B7EA191A20F6009978F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = " dkobayashi";
+				TargetAttributes = {
+					5CC2B812191A20F6009978F1 = {
+						TestTargetID = 5CC2B7F1191A20F6009978F1;
+					};
+				};
+			};
+			buildConfigurationList = 5CC2B7ED191A20F6009978F1 /* Build configuration list for PBXProject "OSCTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC2B7E9191A20F6009978F1;
+			productRefGroup = 5CC2B7F3191A20F6009978F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC2B7F1191A20F6009978F1 /* OSCTutorial */,
+				5CC2B812191A20F6009978F1 /* OSCTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC2B7F0191A20F6009978F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B80E191A20F6009978F1 /* Images.xcassets in Resources */,
+				5CC2B800191A20F6009978F1 /* InfoPlist.strings in Resources */,
+				5CC2B809191A20F6009978F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2B811191A20F6009978F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B81F191A20F6009978F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC2B7EE191A20F6009978F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B80C191A20F6009978F1 /* ViewController.m in Sources */,
+				5CC2B806191A20F6009978F1 /* AppDelegate.m in Sources */,
+				5CC2B802191A20F6009978F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2B80F191A20F6009978F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2B821191A20F6009978F1 /* OSCTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC2B819191A20F6009978F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC2B7F1191A20F6009978F1 /* OSCTutorial */;
+			targetProxy = 5CC2B818191A20F6009978F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC2B7FE191A20F6009978F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC2B7FF191A20F6009978F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CC2B807191A20F6009978F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC2B808191A20F6009978F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC2B81D191A20F6009978F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC2B81E191A20F6009978F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC2B822191A20F6009978F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CC2B823191A20F6009978F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC2B825191A20F6009978F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSCTutorial/OSCTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OSCTutorial/OSCTutorial-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OSCTutorial/VVOSC",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC2B826191A20F6009978F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSCTutorial/OSCTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OSCTutorial/OSCTutorial-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OSCTutorial/VVOSC",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CC2B828191A20F6009978F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSCTutorial.app/OSCTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSCTutorial/OSCTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSCTutorialTests/OSCTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CC2B829191A20F6009978F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSCTutorial.app/OSCTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSCTutorial/OSCTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OSCTutorialTests/OSCTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC2B7ED191A20F6009978F1 /* Build configuration list for PBXProject "OSCTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC2B822191A20F6009978F1 /* Debug */,
+				5CC2B823191A20F6009978F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC2B824191A20F6009978F1 /* Build configuration list for PBXNativeTarget "OSCTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC2B825191A20F6009978F1 /* Debug */,
+				5CC2B826191A20F6009978F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC2B827191A20F6009978F1 /* Build configuration list for PBXNativeTarget "OSCTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC2B828191A20F6009978F1 /* Debug */,
+				5CC2B829191A20F6009978F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC2B7EA191A20F6009978F1 /* Project object */;
+}

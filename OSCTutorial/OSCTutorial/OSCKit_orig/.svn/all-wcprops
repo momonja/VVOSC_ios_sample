@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/OSCKit%20copy
+END
+OSC-pattern-match.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-pattern-match.h
+END
+NetworkReturnAddress.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/OSCKit%20copy/NetworkReturnAddress.c
+END
+OSC-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-client.c
+END
+OSC-address-space.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-address-space.c
+END
+NetworkReturnAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/OSCKit%20copy/NetworkReturnAddress.h
+END
+OSC-receive.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-receive.c
+END
+OSC-client.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-client.h
+END
+OSC-address-space.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-address-space.h
+END
+NetworkUDP.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/OSCKit%20copy/NetworkUDP.h
+END
+OSC-internal-messages.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-internal-messages.h
+END
+OSC-receive.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-receive.h
+END
+OSC-callbacklist.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-callbacklist.c
+END
+OSC-system-dependent.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-system-dependent.c
+END
+OSC-timetag.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-timetag.c
+END
+OSC-string-help.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-string-help.c
+END
+OSC-common.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-common.h
+END
+OSC-callbacklist.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-callbacklist.h
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/OSCKit%20copy/.DS_Store
+END
+OSC-timetag.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-timetag.h
+END
+OSC-string-help.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-string-help.h
+END
+OSC-priority-queue.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-priority-queue.c
+END
+OSC-drop.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-drop.c
+END
+OSC-dispatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-dispatch.h
+END
+OSC-pattern-match.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-pattern-match.c
+END
+OSC-priority-queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-priority-queue.h
+END
+OSC-drop.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/OSCKit%20copy/OSC-drop.h
+END

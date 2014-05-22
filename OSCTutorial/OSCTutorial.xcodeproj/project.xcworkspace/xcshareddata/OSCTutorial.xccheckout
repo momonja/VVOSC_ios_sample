@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB19D27C-4E87-46A7-8119-2B91EB23DDC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OSCTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D2368DAC-AD83-4C45-9777-C3F3AE997682</key>
+		<string>https://github.com/momonja/VVOSC_ios_sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OSCTutorial/OSCTutorial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D2368DAC-AD83-4C45-9777-C3F3AE997682</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/momonja/VVOSC_ios_sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D2368DAC-AD83-4C45-9777-C3F3AE997682</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2368DAC-AD83-4C45-9777-C3F3AE997682</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
